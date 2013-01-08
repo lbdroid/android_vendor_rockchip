@@ -71,5 +71,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         vendor/rockchip/rk3066/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
-        vendor/rockchip/rk3066/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk
+        vendor/rockchip/rk3066/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk \
+	vendor/rockchip/rk3066/proprietary/app/RKSettings.apk:system/app/RKSettings.apk \
+	vendor/rockchip/rk3066/proprietary/app/RKBasicSettings.apk:system/app/RKBasicSettings.apk \
+	vendor/rockchip/rk3066/proprietary/app/eHomeMediaCenter_box.apk:system/app/eHomeMediaCenter_box.apk \
+	vendor/rockchip/rk3066/proprietary/app/Reboot_v0.5.0.apk:system/app/Reboot_v0.5.0.apk
 
