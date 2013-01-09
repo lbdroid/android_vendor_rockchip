@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/rk3066/proprietary/lib/libstagefright_foundatioo.so:system/lib/libstagefright_foundatioo.so \
     vendor/rockchip/rk3066/proprietary/lib/libstagefrighu.so:system/lib/libstagefrighu.so \
     vendor/rockchip/rk3066/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/rockchip/rk3066/proprietary/lib/modules/btusb.ko:system/lib/modules/btusb.ko \
     vendor/rockchip/rk3066/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
     vendor/rockchip/rk3066/proprietary/lib/modules/rk29-ipp.ko:system/lib/modules/rk29-ipp.ko \
     vendor/rockchip/rk3066/proprietary/lib/modules/rkwifi.ko:system/lib/modules/rkwifi.ko \
@@ -52,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/rk3066/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/rockchip/rk3066/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/rockchip/rk3066/proprietary/bin/displayd:system/bin/displayd \
-    vendor/rockchip/rk3066/proprietary/bin/akmd8975:system/bin/akmd8975 \
+    vendor/rockchip/rk3066/proprietary/bin/akmd8975:system/bin/akmd8975
 
 PRODUCT_COPY_FILES += \
     vendor/rockchip/rk3066/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
