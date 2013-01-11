@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/rockchip/rk3066-common
+LOCAL_PATH := vendor/rockchip/rk3066-common
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/displayd:system/bin/displayd \
