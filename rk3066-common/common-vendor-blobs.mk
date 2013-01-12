@@ -79,10 +79,10 @@ PRODUCT_COPY_FILES += \
     #$(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/app/LauncherTV.apk:system/app/LauncherTV.apk \
     $(LOCAL_PATH)/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
     $(LOCAL_PATH)/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk \
     $(LOCAL_PATH)/proprietary/app/RKSettings.apk:system/app/RKSettings.apk \
     $(LOCAL_PATH)/proprietary/app/RKBasicSettings.apk:system/app/RKBasicSettings.apk \
-    $(LOCAL_PATH)/proprietary/app/eHomeMediaCenter_box.apk:system/app/eHomeMediaCenter_box.apk \
-    $(LOCAL_PATH)/proprietary/app/Reboot_v0.5.0.apk:system/app/Reboot_v0.5.0.apk
+    $(LOCAL_PATH)/proprietary/app/eHomeMediaCenter_box.apk:system/app/eHomeMediaCenter_box.apk
 
