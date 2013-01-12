@@ -18,7 +18,7 @@ LOCAL_PATH := vendor/rockchip/rk3066-common
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/displayd:system/bin/displayd \
     $(LOCAL_PATH)/proprietary/bin/akmd8975:system/bin/akmd8975 \
-    $(LOCAL_PATH)/proprietary/bin/akmd8975:system/bin/wpa_supplicant
+    $(LOCAL_PATH)/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
