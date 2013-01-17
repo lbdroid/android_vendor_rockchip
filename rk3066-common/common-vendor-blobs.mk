@@ -78,9 +78,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so
     #$(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/app/LauncherTV.apk:system/app/LauncherTV.apk \
-    $(LOCAL_PATH)/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
-    $(LOCAL_PATH)/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk \
-    $(LOCAL_PATH)/proprietary/app/RKBasicSettings.apk:system/app/RKBasicSettings.apk
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
+#    $(LOCAL_PATH)/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk
+#    $(LOCAL_PATH)/proprietary/app/LauncherTV.apk:system/app/LauncherTV.apk
+#    $(LOCAL_PATH)/proprietary/app/RKBasicSettings.apk:system/app/RKBasicSettings.apk
 
