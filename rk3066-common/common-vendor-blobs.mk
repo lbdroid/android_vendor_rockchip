@@ -78,6 +78,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so
     #$(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so
 
+# Flash
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/proprietary/app/FlashPlayer.apk:system/app/FlashPlayer.apk \
+     $(LOCAL_PATH)/lib/libflashplayer.so:system/lib/libflashplayer.so \
+     $(LOCAL_PATH)/lib/libysshared.so:system/lib/libysshared.so
+
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
 #    $(LOCAL_PATH)/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk
