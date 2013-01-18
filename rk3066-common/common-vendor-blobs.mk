@@ -81,8 +81,8 @@ PRODUCT_COPY_FILES += \
 # Flash
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/proprietary/app/FlashPlayer.apk:system/app/FlashPlayer.apk \
-     $(LOCAL_PATH)/lib/libflashplayer.so:system/lib/libflashplayer.so \
-     $(LOCAL_PATH)/lib/libysshared.so:system/lib/libysshared.so
+     $(LOCAL_PATH)/proprietary/lib/libflashplayer.so:system/lib/libflashplayer.so \
+     $(LOCAL_PATH)/proprietary/lib/libysshared.so:system/lib/libysshared.so
 
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
