@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/modules/rtl8192cu.ko:system/lib/modules/rtl8192cu.ko \
     $(LOCAL_PATH)/proprietary/lib/modules/rtl8711.ko:system/lib/modules/rtl8711.ko \
     $(LOCAL_PATH)/proprietary/lib/modules/ump.ko:system/lib/modules/ump.ko \
-    $(LOCAL_PATH)/proprietary/lib/modules/vpu_service.ko:system/lib/modules/vpu_service.ko \
     $(LOCAL_PATH)/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     $(LOCAL_PATH)/proprietary/lib/modules/rk30xxnand_ko.ko.3.0.8+:root/rk30xxnand_ko.ko.3.0.8+
 
